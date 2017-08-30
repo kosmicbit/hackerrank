@@ -19,8 +19,8 @@ int main()
 		for (int col = 0; col < 4; col++)
 		{
 			int hourGlassSum = hourglass[row][col] + hourglass[row][col + 1] + hourglass[row][col + 2] +
-													hourglass[row + 1][col + 1] +
-							   hourglass[row + 2][col] + hourglass[row + 2][col + 1] + hourglass[row + 2][col + 2];
+								hourglass[row + 1][col + 1] +
+					   hourglass[row + 2][col] + hourglass[row + 2][col + 1] + hourglass[row + 2][col + 2];
 
 			if (maximumHourGlassSum < hourGlassSum)
 				maximumHourGlassSum = hourGlassSum;
